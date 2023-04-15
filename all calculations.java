@@ -11,10 +11,10 @@ public class Main {
         int mult = num1 * num2;
         int div = num1 / num2;
         int mod = num1 % num2;
-        System.out.println(sum);
-        System.out.println(sub);
-        System.out.println(mult);
-        System.out.println(div);
-        System.out.println(mod);
+        System.out.println("Sum: "+sum);
+        System.out.println("Sub:"+sub);
+        System.out.println("mul:"+ mult);
+        System.out.println("div:"+div);
+        System.out.println("remainder :"+mod);
     }
 }
