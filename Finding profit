@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int noOfCopy=input.nextInt();
+        int cost=input.nextInt();
+        int costPerCopy=input.nextInt();
+        int fixedAmount=100;
+        int profit=((noOfCopy*cost)-(noOfCopy*costPerCopy)-100);
+        System.out.println(profit);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
